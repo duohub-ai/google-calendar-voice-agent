@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "calendar-bot"
+version = "0.1.0"
+description = ""
+authors = ["Oseh Mathias <o@matmail.me>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+python-dotenv = "^1.0.1"
+fastapi = {extras = ["all"], version = "^0.115.5"}
+uvicorn = "^0.32.1"
+pipecat-ai = {extras = ["cartesia", "daily", "openai", "silero"], version = "^0.0.54"}
+duohub = "^2.2.0"
+google-api-python-client = "^2.160.0"
+google-auth-httplib2 = "^0.2.0"
+google-auth-oauthlib = "^1.2.1"
+boto3 = "^1.36.18"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
