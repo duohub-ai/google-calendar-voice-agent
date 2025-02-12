@@ -2,6 +2,8 @@
 
 This project demonstrates a voice AI agent that can manage Google Calendar events through natural conversation. It combines several cutting-edge technologies to create a seamless voice interaction experience.
 
+Blog Post: [How to Create a Google Calendar Voice Agent](https://duohub.ai/blog/how-to-create-a-google-calendar-voice-agent)
+
 ## Features
 
 - Natural voice conversations for calendar management
